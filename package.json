@@ -12,14 +12,18 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "upgrade-interactive": "npm-check -u"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.13.1",
-    "gatsby-plugin-styled-components": "^4.14.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "gatsby": "^4.0.0-zz-next.1",
+    "gatsby-plugin-styled-components": "^5.0.0-zz-next.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "npm-check": "^5.9.2"
   }
 }
