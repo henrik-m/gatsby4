@@ -1,0 +1,9 @@
+[[plugins]]
+package = "@netlify/plugin-gatsby"
+
+[build]
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "16.9.1"
+  NPM_VERSION = "7.24.0"
