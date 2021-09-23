@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "upgrade-interactive": "npm-check -u"
+    "upgrade-interactive": "npm-check -u",
+    "netlify-debug": "netlify dev --inspect"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-gatsby": "^2.0.0-beta",
+    "netlify-cli": "^6.9.15",
     "npm-check": "^5.9.2",
     "prettier": "^2.4.1"
   }
